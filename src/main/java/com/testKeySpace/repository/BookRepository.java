@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.testKeySpace.repository;
 
-import com.example.demo.model.Book;
+import com.testKeySpace.model.Book;
 import org.springframework.data.cassandra.repository.CassandraRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.testKeySpace.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.cassandra.core.cql.PrimaryKeyType;
@@ -10,6 +10,7 @@ import java.util.UUID;
 
 @Table("book")
 public class Book {
+
     @Id
     @PrimaryKeyColumn(
             name = "id",
